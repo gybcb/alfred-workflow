@@ -5,16 +5,19 @@ import sys
 import os
 from workflow import Workflow
 
+
 def main(wf):
     args = wf.args
 
-    wf.logger.debug(args)
-
     if args[0] == u"":
-        wf.add_item(title=u"截屏-拉框-剪贴板", subtitle=u"", arg=u"sniprecttoclip", valid=True)
-        #wf.add_item(title=u"截屏-拉框-文件夹", subtitle=u"", arg=u"sniprecttofile", valid=True)
-        wf.add_item(title=u"截屏-全屏-剪贴板", subtitle=u"", arg=u"sniptoclip", valid=True)
-        #wf.add_item(title=u"截屏-全屏-文件夹", subtitle=u"", arg=u"sniptofile", valid=True)
+        wf.add_item(title=u"截屏-拉框-剪贴板",
+                    subtitle=u"",
+                    arg=u"sniprecttoclip",
+                    valid=True)
+        wf.add_item(title=u"截屏-全屏-剪贴板",
+                    subtitle=u"",
+                    arg=u"sniptoclip",
+                    valid=True)
         wf.send_feedback()
         return
 
