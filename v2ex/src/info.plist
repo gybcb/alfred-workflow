@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>proxy</string>
+	<string>v2ex</string>
 	<key>connections</key>
 	<dict>
-		<key>8617A156-6001-4957-AE72-68B0167FD9F2</key>
+		<key>8A05CFC5-EB09-4DD0-BE9F-FAD9F10ADFF1</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>D8F9BD4F-9FA9-4672-850C-D4D4AB7554F6</string>
+				<string>313113D5-BF55-40F1-83A7-D9B19A26A9A7</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -23,11 +23,11 @@
 	<key>createdby</key>
 	<string>flywind</string>
 	<key>description</key>
-	<string>Safari书签和历史搜索工具</string>
+	<string>v2ex viewer</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Safari Bookmarks and History Search</string>
+	<string>v2ex</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -45,7 +45,7 @@
 			<key>type</key>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
-			<string>D8F9BD4F-9FA9-4672-850C-D4D4AB7554F6</string>
+			<string>313113D5-BF55-40F1-83A7-D9B19A26A9A7</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -55,11 +55,11 @@
 				<key>alfredfiltersresults</key>
 				<false/>
 				<key>argumenttype</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>escaping</key>
-				<integer>127</integer>
+				<integer>102</integer>
 				<key>keyword</key>
-				<string>sfs</string>
+				<string>v2ex</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -69,17 +69,17 @@
 				<key>queuemode</key>
 				<integer>1</integer>
 				<key>runningsubtext</key>
-				<string>Please wait...</string>
+				<string>获取信息...</string>
 				<key>script</key>
-				<string>python safarisearch.py {query}</string>
+				<string>python2.7 v2ex.py {query}</string>
 				<key>scriptargtype</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>Safari Bookmarks and History Search</string>
+				<string>v2ex</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -88,7 +88,7 @@
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>8617A156-6001-4957-AE72-68B0167FD9F2</string>
+			<string>8A05CFC5-EB09-4DD0-BE9F-FAD9F10ADFF1</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -97,19 +97,19 @@
 	<string>autoproxy toggit</string>
 	<key>uidata</key>
 	<dict>
-		<key>8617A156-6001-4957-AE72-68B0167FD9F2</key>
+		<key>313113D5-BF55-40F1-83A7-D9B19A26A9A7</key>
 		<dict>
 			<key>xpos</key>
-			<integer>500</integer>
+			<integer>510</integer>
 			<key>ypos</key>
-			<integer>80</integer>
+			<integer>140</integer>
 		</dict>
-		<key>D8F9BD4F-9FA9-4672-850C-D4D4AB7554F6</key>
+		<key>8A05CFC5-EB09-4DD0-BE9F-FAD9F10ADFF1</key>
 		<dict>
 			<key>xpos</key>
-			<integer>710</integer>
+			<integer>300</integer>
 			<key>ypos</key>
-			<integer>10</integer>
+			<integer>140</integer>
 		</dict>
 	</dict>
 	<key>webaddress</key>
